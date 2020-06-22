@@ -25,5 +25,5 @@ end
 Capybara.configure do |c|
   c.default_driver = @driver
   c.default_max_wait_time = 10
-  c.app_host = "http://192.168.99.100:8989/login_page.php"
+  c.app_host = "http://192.168.99.100:8989/"
 end
