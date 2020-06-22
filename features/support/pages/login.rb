@@ -4,7 +4,7 @@ class Login
   def colocarUsuario(usuario)
     find("#username").set usuario
     sleep 3
-    click_button "Entrar"
+    click_button "Login"
   end
 
   def colocarSenha(senha)
@@ -12,7 +12,7 @@ class Login
   end
 
   def pressionarEntrar()
-    click_button "Entrar"
+    click_button "Login"
   end
 
   def caixaUsuario()
